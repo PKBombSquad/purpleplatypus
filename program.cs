@@ -11,7 +11,7 @@ namespace purpleplatypus
 #endif
         static void Main()
         {
-            using (var program = new EmeClient())
+            using (var program = new purpleplatypusClient())
                 program.Run();
         }
     }

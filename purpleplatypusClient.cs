@@ -14,7 +14,7 @@ using SharpDX.Multimedia;
 
 namespace purpleplatypus
 {
-    class EmeClient : Game
+    class purpleplatypusClient : Game
     {
         private string contentPath = "";//Path.GetDirectoryName(Assembly.GetExecutingAssembly().FullName);//"C:/purpleplatypus/content/";
 
@@ -35,7 +35,7 @@ namespace purpleplatypus
         private Camera camera = new Camera();
 
 
-        public EmeClient()
+        public purpleplatypusClient()
         {
             myGraphicsDeviceManager = new GraphicsDeviceManager(this);
 

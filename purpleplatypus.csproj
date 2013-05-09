@@ -40,8 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camera.cs" />
-    <Compile Include="EmeClient.cs" />
     <Compile Include="program.cs" />
+    <Compile Include="purpleplatypusClient.cs" />
     <Compile Include="Sprite.cs" />
   </ItemGroup>
   <ItemGroup>
